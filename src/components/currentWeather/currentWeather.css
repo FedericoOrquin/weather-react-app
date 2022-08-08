@@ -1,9 +1,9 @@
 .weather{
     width: 300px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 10px -2px 20px 2px rgb(0,0,0 / 30%);
     color: #fff;
-    background-color: #333;
+    background-color: rgb(81, 79, 79);
     margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px;
 }
@@ -58,4 +58,8 @@
 }
 .parameter-label.top{
     border-bottom: 1px solid white;
+}
+.parameter-label.detail{
+    text-decoration: underline;
+    margin-bottom: 2px;
 }
